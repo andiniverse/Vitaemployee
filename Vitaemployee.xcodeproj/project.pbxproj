@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F249E022C01CB980094F27C /* YTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F249E012C01CB980094F27C /* YTView.swift */; };
+		4F7E9E102C00F47E0021FC25 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E9E0F2C00F47E0021FC25 /* ScannerView.swift */; };
+		4F7E9E122C00F4A70021FC25 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E9E112C00F4A70021FC25 /* TextRecognizer.swift */; };
+		4F7E9E142C00F4D40021FC25 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E9E132C00F4D40021FC25 /* ScanData.swift */; };
+		4F7E9E182C0107F40021FC25 /* TextCoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7E9E172C0107F40021FC25 /* TextCoba.swift */; };
 		4F87C0B52C0065B00083931B /* VitaemployeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C0B42C0065B00083931B /* VitaemployeeApp.swift */; };
 		4F87C0B72C0065B00083931B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C0B62C0065B00083931B /* ContentView.swift */; };
 		4F87C0B92C0065B10083931B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F87C0B82C0065B10083931B /* Assets.xcassets */; };
@@ -14,6 +19,7 @@
 		4F87C0C72C0065B10083931B /* VitaemployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C0C62C0065B10083931B /* VitaemployeeTests.swift */; };
 		4F87C0D12C0065B10083931B /* VitaemployeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C0D02C0065B10083931B /* VitaemployeeUITests.swift */; };
 		4F87C0D32C0065B10083931B /* VitaemployeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F87C0D22C0065B10083931B /* VitaemployeeUITestsLaunchTests.swift */; };
+		4FA1B0DE2C031DC2008A3B1E /* Accuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA1B0DD2C031DC2008A3B1E /* Accuracy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F249E012C01CB980094F27C /* YTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTView.swift; sourceTree = "<group>"; };
+		4F7E9E0F2C00F47E0021FC25 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		4F7E9E112C00F4A70021FC25 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		4F7E9E132C00F4D40021FC25 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		4F7E9E172C0107F40021FC25 /* TextCoba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCoba.swift; sourceTree = "<group>"; };
 		4F87C0B12C0065B00083931B /* Vitaemployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vitaemployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F87C0B42C0065B00083931B /* VitaemployeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaemployeeApp.swift; sourceTree = "<group>"; };
 		4F87C0B62C0065B00083931B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,7 @@
 		4F87C0CC2C0065B10083931B /* VitaemployeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaemployeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F87C0D02C0065B10083931B /* VitaemployeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaemployeeUITests.swift; sourceTree = "<group>"; };
 		4F87C0D22C0065B10083931B /* VitaemployeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaemployeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FA1B0DD2C031DC2008A3B1E /* Accuracy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accuracy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 			children = (
 				4F87C0B42C0065B00083931B /* VitaemployeeApp.swift */,
 				4F87C0B62C0065B00083931B /* ContentView.swift */,
+				4FA1B0DD2C031DC2008A3B1E /* Accuracy.swift */,
+				4F7E9E172C0107F40021FC25 /* TextCoba.swift */,
+				4F7E9E0F2C00F47E0021FC25 /* ScannerView.swift */,
+				4F7E9E132C00F4D40021FC25 /* ScanData.swift */,
+				4F7E9E112C00F4A70021FC25 /* TextRecognizer.swift */,
+				4F249E012C01CB980094F27C /* YTView.swift */,
 				4F87C0B82C0065B10083931B /* Assets.xcassets */,
 				4F87C0BA2C0065B10083931B /* Vitaemployee.entitlements */,
 				4F87C0BB2C0065B10083931B /* Preview Content */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7E9E122C00F4A70021FC25 /* TextRecognizer.swift in Sources */,
+				4F7E9E182C0107F40021FC25 /* TextCoba.swift in Sources */,
+				4F7E9E102C00F47E0021FC25 /* ScannerView.swift in Sources */,
 				4F87C0B72C0065B00083931B /* ContentView.swift in Sources */,
+				4FA1B0DE2C031DC2008A3B1E /* Accuracy.swift in Sources */,
 				4F87C0B52C0065B00083931B /* VitaemployeeApp.swift in Sources */,
+				4F249E022C01CB980094F27C /* YTView.swift in Sources */,
+				4F7E9E142C00F4D40021FC25 /* ScanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,8 +444,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Vitaemployee/Preview Content\"";
+				DEVELOPMENT_TEAM = 962GM79KMB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) requires permission to scan files";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,8 +483,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Vitaemployee/Preview Content\"";
+				DEVELOPMENT_TEAM = 962GM79KMB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) requires permission to scan files";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
